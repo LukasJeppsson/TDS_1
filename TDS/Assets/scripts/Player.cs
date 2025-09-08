@@ -6,7 +6,9 @@ public class Player : MonoBehaviour
 {
     Rigidbody2D rb;
     Vector2 moveInput;
-    public float movespeed = 10.0f;
+    public float moveSpeed = 3.0f;
+    public GameObject bullet;
+    public float bulletSpeed = 7.0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,10 +22,17 @@ public class Player : MonoBehaviour
         moveInput = value.Get<Vector2>();
     }
 
+    void OnAttack()
+    {
+        GameObject playerBullet = Instantiate(bullet, transform.position, Quaternion.identity);
+        Rigidbody2D BulletRb = playerBullet.GetComponent<Rigidbody2D>();
+        BulletRb.AddForce(transform.up * bulletSpeed, ForceMode2D.Impulse);
+    }
+
 
     // Update is called once per frame
     void Update()
     {
-        rb.linearVelocity = moveInput * movespeed;
+        rb.linearVelocity = moveInput * moveSpeed;
     }
 }
