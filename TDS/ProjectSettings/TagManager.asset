@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemies
   - Bullets
+  - OneHealth
+  - TwoHealth
+  - Invinsibility
   layers:
   - Default
   - TransparentFX

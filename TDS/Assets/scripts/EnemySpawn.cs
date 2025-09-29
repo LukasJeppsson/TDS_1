@@ -4,7 +4,8 @@ public class EnemySpawn : MonoBehaviour
 {
     public GameObject enemyPrefab;
     public float minSpawnTime = 1.0f;
-    public float maxSpawnTime = 3.0f;
+    public float maxSpawnTime = 4.0f;
+    public bool spawn = true;
 
     float spanwDistans = 10.0f;
     Vector2 ScreenBounds;
@@ -42,6 +43,10 @@ public class EnemySpawn : MonoBehaviour
                 break;
         }
         Instantiate(enemyPrefab, spawnpos, transform.rotation);
-        Invoke("SpawnEnemy", spawnTime);
+        if (spawn)
+        {
+            Invoke("SpawnEnemy", spawnTime);
+        }
+        
     }
 }
