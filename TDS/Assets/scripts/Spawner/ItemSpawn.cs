@@ -6,7 +6,7 @@ public class ItemSpawn : MonoBehaviour
     public GameObject twoHealth;
     public GameObject invinsibility;
 
-    public float itemSpawnTimeMax = 16;
+    public float itemSpawnTimeMax = 15;
     public float itemSpawnTimeMin = 10;
     float itemSpawnTime;
     int spawnItemMax = 4;

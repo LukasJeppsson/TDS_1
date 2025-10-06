@@ -471,10 +471,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1248734891387726625, guid: 7db1a358ee6419c47939544cd11fbd8f, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2366243164886215277, guid: 7db1a358ee6419c47939544cd11fbd8f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -514,46 +510,6 @@ PrefabInstance:
     - target: {fileID: 2366243164886215277, guid: 7db1a358ee6419c47939544cd11fbd8f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353792609165734869, guid: 7db1a358ee6419c47939544cd11fbd8f, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.3173732
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353792609165734869, guid: 7db1a358ee6419c47939544cd11fbd8f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353792609165734869, guid: 7db1a358ee6419c47939544cd11fbd8f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.77
-      objectReference: {fileID: 0}
-    - target: {fileID: 6013187137876106427, guid: 7db1a358ee6419c47939544cd11fbd8f, type: 3}
-      propertyPath: health
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6013187137876106427, guid: 7db1a358ee6419c47939544cd11fbd8f, type: 3}
-      propertyPath: invincibility
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6013187137876106427, guid: 7db1a358ee6419c47939544cd11fbd8f, type: 3}
-      propertyPath: rotationSpeed
-      value: 700
-      objectReference: {fileID: 0}
-    - target: {fileID: 6802440071734867520, guid: 7db1a358ee6419c47939544cd11fbd8f, type: 3}
-      propertyPath: m_Color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6802440071734867520, guid: 7db1a358ee6419c47939544cd11fbd8f, type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6802440071734867520, guid: 7db1a358ee6419c47939544cd11fbd8f, type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6802440071734867520, guid: 7db1a358ee6419c47939544cd11fbd8f, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7961241974319024008, guid: 7db1a358ee6419c47939544cd11fbd8f, type: 3}
       propertyPath: m_Name
